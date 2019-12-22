@@ -43,6 +43,7 @@
     border: 1px solid grey;
     margin-top: 19px;
     transition: .8s;
+    transition-delay: 1s;
 }
 .shadow:hover{
 box-shadow: 0 0 50px 3px rgba(167, 166, 166, 0.521);
