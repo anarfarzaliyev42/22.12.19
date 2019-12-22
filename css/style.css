@@ -1,4 +1,4 @@
-.img{
+/* .img{
     position: relative;
     width: 300px;
     height: 200px;
@@ -36,8 +36,8 @@
     transition: .8s;
     box-shadow: 10px 10px; 
 
-}
-.shadow{
+} */
+/* .shadow{
     width: 300px;
     height: 200px;
     border: 1px solid grey;
@@ -48,4 +48,85 @@
 .shadow:hover{
 box-shadow: 0 0 50px 3px rgba(167, 166, 166, 0.521);
 
+} */
+/* .image{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+   background-color: blue;
+   
+    
 }
+img{
+    object-fit: cover;   
+}
+
+img:hover{    
+   transform: scale(1.5,1.5);
+   transition: .5s;
+   
+   
+   
+}
+div.optisied:hover .optimised{  
+    width: 200px;
+    height: 200px;  
+   opacity: 1;
+    transition: .8s;
+   background: rgba(51, 51, 182, 0.432);
+    font-size: 15px;
+    position: absolute;
+    color: black;
+    top: 0px;
+    left: 0px;
+ }
+.optimised{
+   opacity: 0;
+    width: 200px;
+    height: 200px;
+   background: rgba(51, 51, 182, 0.432);
+    font-size: 15px;
+    position: absolute;
+    color: black;
+    top: 0px;
+    left: 0px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}
+ */
+ .top{
+     background-attachment: fixed;
+     margin-top: 300px;
+     background-image: url('/asserts/images/showcase-bg-fixed-01.jpg');
+     position: relative;
+     width: 100%;
+     height: 500px;
+     
+ }
+ .bottom{
+    width: 100%;
+    height: 300px;
+   
+}
+img{
+ 
+    position: absolute;
+    top: 0;
+    left:170px;
+}
+.screen3{
+    position: absolute;
+    height: 445px;
+    top: 115px;
+    left: 220px;
+    width: 253px;
+    z-index: 1;
+    
+}
+
